@@ -1,0 +1,22 @@
+{
+  "name": "GridView",
+  "version": "0.0.1",
+  "summary": "A short description of GridView.",
+  "homepage": "https://github.com/Chakery/GridView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chakery": "chakerychen@gmail.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/Chakery/GridView.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "GridView/Classes/**/*",
+  "requires_arc": true
+}
