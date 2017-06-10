@@ -1,16 +1,16 @@
 PODS:
-  - GridView (0.0.1)
+  - AyGridView (0.0.1)
 
 DEPENDENCIES:
-  - GridView (from `../`)
+  - AyGridView (from `../`)
 
 EXTERNAL SOURCES:
-  GridView:
+  AyGridView:
     :path: ../
 
 SPEC CHECKSUMS:
-  GridView: e82ca91c75a728b541ebeab54bd5f47bddd8a58f
+  AyGridView: 19b3fceb3631f0bbecfa6774d04c05209feba13a
 
-PODFILE CHECKSUM: 80742745d18aa59a10caaf52068b93fef255f27d
+PODFILE CHECKSUM: 246069dfc0140f6a5e37abff1677f77e538664d8
 
 COCOAPODS: 1.2.0

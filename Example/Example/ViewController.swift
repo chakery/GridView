@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import GridView
+import AyGridView
 
 class ViewController: UIViewController {
     var gridView: GridView!

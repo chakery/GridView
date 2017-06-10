@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "GridView"
+  s.name         = "AyGridView"
   s.version      = "0.0.1"
   s.summary      = "A GridView that allows dragging the selection."
   s.homepage     = "https://github.com/Chakery/GridView"
@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = 'GridView/Classes/**/*'
+  s.source_files = 'AyGridView/Classes/**/*'
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"

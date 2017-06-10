@@ -1,0 +1,6 @@
+framework module AyGridView {
+  umbrella header "AyGridView-umbrella.h"
+
+  export *
+  module * { export * }
+}

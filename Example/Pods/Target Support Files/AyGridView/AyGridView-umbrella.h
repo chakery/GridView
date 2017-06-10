@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double GridViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char GridViewVersionString[];
+FOUNDATION_EXPORT double AyGridViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char AyGridViewVersionString[];
 
