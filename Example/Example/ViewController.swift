@@ -22,10 +22,10 @@ class ViewController: UIViewController {
     }
     
     lazy var texts: [[String]] = {
-        return [["d", "i", "s", "p", "o", "s", "e"],
-                ["d", "i", "s", "p", "o", "s", "e"],
-                ["d", "i", "s", "p", "o", "s", "e"],
-                ["d", "i", "s", "p", "o", "s", "e"]]
+        return [["h", "e", "l", "l", "o", "s", "e"],
+                ["d", "i", "w", "o", "r", "l", "d"],
+                ["a", "n", "d", "m", "d", "s", "a"],
+                ["c", "h", "a", "k", "e", "r", "y"]]
     }()
     
     func setupView() {
