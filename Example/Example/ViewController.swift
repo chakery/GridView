@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         gridView.itemSize = CGSize.init(width: 40, height: 40)
         gridView.translatesAutoresizingMaskIntoConstraints = false
         gridView.padding = 1.0
+        gridView.font = UIFont.boldSystemFont(ofSize: 17)
         view.addSubview(gridView)
         setupConstraints()
         

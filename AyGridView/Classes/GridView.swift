@@ -35,6 +35,7 @@ open class GridView: UIView {
     public var normalColor: UIColor = UIColor.lightGray { didSet{ setNeedsDisplay() } }
     public var selectedColor: UIColor = UIColor.brown { didSet{ setNeedsDisplay() } }
     public var font: UIFont = UIFont.systemFont(ofSize: UIFont.systemFontSize) { didSet{ setNeedsDisplay() } }
+    public var isDotted: Bool = true { didSet{ setNeedsDisplay() } }
     
     public init(frame: CGRect = .zero, texts: [[String]]) {
         self.texts = texts
@@ -65,8 +66,17 @@ open class GridView: UIView {
                 let y = (CGFloat(h) * (itemSize.height + padding)) + margin
                 let rect = CGRect(origin: CGPoint.init(x: x, y: y), size: itemSize)
                 let path = UIBezierPath(roundedRect: rect, cornerRadius: itemCornerRadius)
+                if isDotted {
+                    path.lineWidth = 1.0
+                    path.lineCapStyle = .round
+                    path.lineJoinStyle = .round
+                    path.setLineDash([3, 3], count: 2, phase: 0)
+                    context?.setStrokeColor(UIColor.red.cgColor)
+                    path.stroke()
+                }
                 context?.setFillColor(enable ? selectedColor.cgColor : normalColor.cgColor)
                 path.fill()
+                
                 text.draw(in: rect, attributes: attributes)
                 tempRects.append(rect)
             }
