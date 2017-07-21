@@ -41,6 +41,11 @@ class ViewController: UIViewController {
         gridView.didChangeCallback = { change in
             print(change)
         }
+        
+        // EmptyBox
+        let box1 = GridView.EmptyBox(start: (0, 3), end: (3, 3))
+        let box2 = GridView.EmptyBox(start: (3, 2), end: (3, 6))
+        gridView.emptyBoxs = [box1, box2]
     }
     
     func setupConstraints() {
