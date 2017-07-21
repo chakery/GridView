@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AyGridView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A GridView that allows dragging the selection."
   s.homepage     = "https://github.com/Chakery/GridView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
