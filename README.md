@@ -15,6 +15,6 @@ platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'AyGridView', '~> 0.0.1'
+    pod 'AyGridView', '~> 0.0.2'
 end
 ```
